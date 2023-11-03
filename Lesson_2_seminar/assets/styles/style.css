@@ -1,9 +1,35 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url("./assets/fonts/OpenSans-Bolt.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url("./assets/fonts/OpenSans-SemiBolt.ttf");
+    font-weight: 600;
+}
+body {
+    margin: 0;
+}
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 h1{
     color: yellow;
 }
 .title {
-    color: aqua;
-    font-size: 50px;
+    /* color: aqua; */
+    
+    color: #222222;
+    font-size: 28px; /*размер шрифта*/
+    line-height: 36px; /*высота строки*/
+    font-weight: bold;
+    letter-spacing: -0,02px; /*межбуквенный интервал*/
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*Шрифт*/
+    margin-top: 40;
 
 }
 .text {
@@ -16,4 +42,22 @@ h1{
 .icon_style{
     width: 70px;
     height: 80px;
+}
+.box{
+    /* сверху, справа, снизу, слева */
+    margin: 40px 0 30px 25px;
+    /* рамка */
+    /* толщина, тип границы, цвет */
+    border: 3px solid green; 
+    /* отступ нутри рамки */
+    padding: 40px;
+}
+.box-text {
+    margin-bottom: 10px;
+}
+.box-link{
+    text-decoration: none;
+}
+.box-wrapper{
+    display: flex;
 }

@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        a {
-            text-decoration: none;
-            /* Убираем подчеркивание у ссылок */
-        }
-    </style>
-    <link rel="stylesheet" href="/Lesson_2_dz/styles/style.css">
+   
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
-    <a href="index.html">Главная</a>
-    <a href="catalog.html">Каталог</a>
-    <a href="#">Контакты</a>
-    
+    <a href="index.html" class="my_link_class">Главная</a>
+    <a href="catalog.html" class="my_link_class">Каталог</a>
+    <a href="#">Контакты <i class="fa-solid fa-code-commit"></i></a>
+    <script src="https://kit.fontawesome.com/06965e7f58.js" crossorigin="anonymous"></script>
+    <p class="my_paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptates.</p>
+    <form action="#">
+        Имя :<input type="text" class="my_input_class"><br>
+        Пароль :<input type="password" class="my_input_class"><br>
+        Дата :<input type="date" class="my_input_class"><br>
+        <button type="submit" class="my_button_class">Отправить</button>
+        <button type="reset" class="my_button_class">Удалить</button>
+    </form>
+
+
+
 </body>
+
 </html>

@@ -42,39 +42,40 @@ c. Описание товара
 4. Задать стиль+
 
 a {
-text-decoration: none;
+text-decoration: none;+
 }
 
 
-5. Проверить работу стилей на всех страницах.
+5. Проверить работу стилей на всех страницах.+
 
-6. Разделить экран на 2 части, сделать так чтобы файл стилей располагался справа, а все html-файлы были слева.
+6. Разделить экран на 2 части, сделать так чтобы файл стилей располагался справа, а все 
+html-файлы были слева.+
 
-7. Для всех ссылок меню задать класс (придумать логичное название класса)
+7. Для всех ссылок меню задать класс (придумать логичное название класса)+
 * color: cornflowerblue;
 * font-size: 16px;
 * line-height: 20px;
 
-8. Проверить отображения стилей на всех страницах проекта.
+8. Проверить отображения стилей на всех страницах проекта.+
 
-9. Для всех заголовков h1 на сайте задать класс и к нему стиль
+9. Для всех заголовков h1 на сайте задать класс и к нему стиль+
 * color: #222222;
 * font-size: 28px;
 * line-height: 36px;
 * font-weight: bold;
 
-10. Для всех параграфов в проекте задать класс.
+10. Для всех параграфов в проекте задать класс.+
 
-11. К данному классу задать стили:
+11. К данному классу задать стили:+
 * font-style: normal;
 * font-weight: 300;
 * font-size: 18px;
 * line-height: 30px;
 * color: #7D7987;
 
-12. Для заголовков h2 задать класс.
+12. Для заголовков h2 задать класс.+
 
-13. К данному классу указать стиль:
+13. К данному классу указать стиль:+
 * color: coral;
 * font-style: normal;
 * font-weight: 700;
@@ -90,32 +91,28 @@ text-decoration: none;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Документ</title>
-    <style>
-        a {
-            text-decoration: none;
-            /* Убираем подчеркивание у ссылок */
-        }
-    </style>
-    <link rel="stylesheet" href="/Lesson_2_dz/styles/style.css">
+    <title>Документ</title>   
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-    <a href="#">Главная</a>
-    <a href="catalog.html">Каталог</a>
-    <a href="contacts.html">Контакты</a>
-    <h1>Главная страница</h1>
-    <h2>Добро пожаловать на сайт</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum id error deleniti harum excepturi inventore
+    <a href="#" class="my_link_class">Главная</a>
+    <a href="catalog.html" class="my_link_class">Каталог</a>
+    <a href="contacts.html">Контакты <i class="fa-solid fa-code-commit"></i></a>
+    <script src="https://kit.fontawesome.com/06965e7f58.js" crossorigin="anonymous"></script>
+    <h1 class="my_class">Главная страница</h1>
+
+    <h2 class="my_class_h2">Добро пожаловать на сайт</h2>
+    <p class="my_paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum id error deleniti harum excepturi inventore
         veniam, perferendis aliquam dolore, magni temporibus quo architecto, neque doloremque voluptatum dignissimos
         dolorum aut sequi.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ab temporibus voluptate facilis reiciendis
+    <p class="my_paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ab temporibus voluptate facilis reiciendis
         accusamus voluptates nobis? Molestias iure laudantium labore, natus facilis officia quas nam, sit recusandae,
         mollitia sint.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eligendi velit, quaerat hic facere consectetur? Et
+    <p class="my_paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eligendi velit, quaerat hic facere consectetur? Et
         nisi repudiandae sunt at eius inventore impedit maxime. Distinctio quasi totam est sequi impedit!</p>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias numquam est, perferendis dolores autem
+    <p class="my_paragraf">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias numquam est, perferendis dolores autem
         quaerat? Architecto velit ipsam laudantium hic dolores debitis, in accusantium nemo quae commodi nam incidunt
         sit!</p>
 
