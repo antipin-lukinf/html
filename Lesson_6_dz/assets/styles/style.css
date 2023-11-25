@@ -64,7 +64,69 @@ ul {
     height: 100px;
     list-style: none;
     gap: 40px
+}
+.intro{
+    display: flex;
+    gap: 128px;
+    margin-top: 160px;
+    width: 1146px;    
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro-title{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.intro-text{
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
+}
+.intro-button-start{
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
     
 
+}
+.intro-button-watch{
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    
+
+}
+.intro-button-wrapper{
+    display: flex;
+    gap: 20px;
+}
+.logos{
+    margin-top: 243px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
 }
