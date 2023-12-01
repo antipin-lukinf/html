@@ -109,7 +109,7 @@ ul {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    background: #F25822;
+    
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
     display: inline-block;
     line-height: 50px;
@@ -128,4 +128,31 @@ ul {
     margin-right: auto;
     display: flex;
     justify-content: space-between;
+}
+
+.card{
+    margin-top: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.card-1{
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.card-2{
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.card-3{
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
