@@ -32,6 +32,12 @@ html{
 *{
     margin: 0;
 }
+.base-container{
+    max-width: 1146px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 ul {
     padding: 0;
 }
@@ -130,20 +136,30 @@ ul {
     justify-content: space-between;
 }
 
-.card{
+.cards{
     margin-top: 50px;
-    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.card{
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    
     
 }
 .card-1{
     padding-left: 30px;
     padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .card-2{
@@ -155,4 +171,7 @@ ul {
     padding-left: 30px;
     padding-right: 30px;
 
+}
+.h1{
+    padding-top: 225;
 }
