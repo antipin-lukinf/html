@@ -138,40 +138,44 @@ ul {
 
 .cards{
     margin-top: 50px;
-    
-    padding-top: 15px;
-    padding-bottom: 15px;
+    display: flex;
+    gap: 30px;
 
 }
 
 .card{
     display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 30px 25px;
     
     
 }
-.card-1{
-    padding-left: 30px;
-    padding-right: 30px;
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
 
+.card-title{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+    margin-bottom: 17px;
 }
-.card-2{
-    padding-left: 30px;
-    padding-right: 30px;
-
+.card-text {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
-.card-3{
-    padding-left: 30px;
-    padding-right: 30px;
-
-}
-.h1{
-    padding-top: 225;
+.card-link {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 25px;
 }
