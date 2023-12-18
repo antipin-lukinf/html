@@ -1,8 +1,4 @@
-.section{
-    /* max-width: 1140px; */
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .center{
     display: flex;
@@ -15,14 +11,18 @@
     background-color: black;
 }
 .section-items{
-    background-color: #F1E4E6;
+    /* max-width: 1140px; */
+    
     
     
 }
 .cartun{
-    display: flex;
-    
+    display: flex;    
     gap: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F1E4E6;
+    
 
 }
 .image-hed{
@@ -32,6 +32,56 @@
 .text-centr{
     display: flex;
     align-items: center;
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    gap: 30px;
+    
     
 }
+.rectangle{
+    fill: #F16D7F;
+    width: 12px;
+    height: 92px;
+    flex-shrink: 0;
 
+}
+.the-brand{
+    display: inline;
+
+}
+.LUXERIOUS{
+    
+
+}
+.FASHION{
+
+}
+
+    
+.item{
+    display: grid;
+}    
+ 
+.buttons{
+    
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.item-big{
+    column-span: 3fr;
+}
+
+.text-centr-h3{
+    display: flex;
+    display: inline;
+    align-items: center;
+    
+    gap: 30px;
+    
+    
+}
