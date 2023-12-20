@@ -1,15 +1,22 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
     margin: 0;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
-    html {font-family: 'Lato', sans-serif;}
+html {
+    font-family: 'Lato', sans-serif;
+}
 
 .section{
     background-color: black;
 }
 .heder-center{
     max-width: 1140px;
+    height: 75px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -49,11 +56,16 @@ body{
     grid-template-rows: repeat(2, auto);
     margin-top: 65px;
     gap: 30px;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    /* grid-template-columns: repeat(3,1fr); */
 }
 
 .item-big{
     
     grid-area: 2 /1 / 2 / 6;
+    /* grid-column: span 3; */
 
     
 }
@@ -83,12 +95,14 @@ body{
 }
 
 .card-2{
+    
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, auto);
-    margin-top: 65px;
-    gap: 30px;
+   
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(3,1fr);
 }
 .text-card{
     display: flex;
@@ -99,17 +113,19 @@ body{
     align-items: flex-start;
     gap: 16px;
 }
-@media screen and (max-width: 1439){
+@media screen and (max-width: 1439px){
     .heder-center{
-        max-width: 100%;
+        /* max-width: 100%;
         height: 74px;
         flex-shrink: 0;
         margin-left: 0%;
-        margin-right: 0%;
+        margin-right: 0%; */
+        max-width: 100%;
+        margin: 0 16px;
     }
     .cartun{
         max-width: 100%;
-        gap: 64px;
+        margin: 0 32px;
         
     }
     .pikcher{
