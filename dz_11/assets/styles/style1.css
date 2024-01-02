@@ -328,6 +328,12 @@ html {
         gap: 32px;
         padding: 20px;
     }
+    .offer {
+        grid-template-columns: 1fr;
+    }
+    .card-big {
+        grid-column: auto;
+    }
 
    
 }
