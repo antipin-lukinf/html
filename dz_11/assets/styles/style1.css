@@ -167,11 +167,25 @@ html {
     align-items: flex-start;
     gap: 16px;
 }
+/* .offer center{
+    max-width: 1140px;
+} */
 .offer {
     margin-top: 65px;
     display: grid;
+    /* max-width: 1140px; */
     /* grid-template-columns: repeat(3, 1fr); */
     gap: 30px;
+}
+.offer-center{
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    max-width: 1140px;
+    justify-content: center;
+    gap: 30px;
+
 }
 
 .offer__card {
